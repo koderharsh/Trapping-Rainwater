@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="http://fonts.cdnfonts.com/css/gotham-rounded"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="grid-container">
+      <header class="heading">Trapping Rainwater</header>
+      <div class="first-half">
+        <div class="input">Input</div>
+        <div class="digits">
+          <input type="text" id="addNumber" />
+          <input
+            type="button"
+            value="Add"
+            onClick="add_element()"
+            id="add-element"
+          />
+          <input
+          type="button"
+          value="Replace"
+          onClick="replace_element()"
+          id="replace-element"
+        />
+          <div id="disp"></div>
+        </div>
+        <div class="first-bar">
+          <svg id="bar-graph" height="0" width="0"></svg>
+        </div>
+      </div>
+      <div class="second-half">
+        <div class="output">Output&nbsp;:&nbsp;<span id="out-number">0</span> </div>
+        <div class="second-bar">
+          <svg id="second-bar-graph" height="0" width="0"></svg>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
