@@ -12,3 +12,7 @@ For adding number in an array type the number in the input field and press *add*
 
 Example : [0,4,0,0,0,6,0,6,4,0]
 Output : 18
+
+### Deployed on heroku
+
+https://trapping-rainwater.herokuapp.com/
